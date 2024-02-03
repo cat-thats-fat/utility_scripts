@@ -1,3 +1,5 @@
+#Puts wireless adapter in managed mode and then restarts Network Manager
+
 echo "Taking adapter offline."
 ifconfig wlx347de44036ae down
 echo "Putting adapter into managed mode."

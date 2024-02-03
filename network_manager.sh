@@ -1,5 +1,6 @@
-#Puts wireless adapter in managed mode and then restarts Network Manager
-
+#Purpose: Puts wireless adapter in managed mode and then restarts Network Manager
+#Version: 1.0
+#Date: 02-02-2024
 echo "Taking adapter offline."
 ifconfig wlx347de44036ae down
 echo "Putting adapter into managed mode."
